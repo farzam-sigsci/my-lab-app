@@ -1,5 +1,5 @@
 service:
-  name: mylab-app
+  name: mylabapp
   identifier: mylabapp
   orgIdentifier: default
   projectIdentifier: interview_lab

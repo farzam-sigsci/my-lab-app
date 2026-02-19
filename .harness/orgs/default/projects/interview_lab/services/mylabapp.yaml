@@ -3,3 +3,6 @@ service:
   identifier: mylabapp
   orgIdentifier: default
   projectIdentifier: interview_lab
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes

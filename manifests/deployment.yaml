@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: farzam-sigsci/my-lab-app:<+pipeline.sequenceId>
+        image: farzam-sigsci/my-lab-app:latest
         ports:
         - containerPort: 8080

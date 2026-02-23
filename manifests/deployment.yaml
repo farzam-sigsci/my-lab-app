@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: <+artifacts.primary.image>
+        image: {{ .Values.image }}
         ports:
         - containerPort: 8080
